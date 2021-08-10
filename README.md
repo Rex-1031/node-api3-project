@@ -18,10 +18,10 @@ There are two possible ways to submit your project. Your instructor should have 
 
 #### Option B - Pull Request
 
-- [ ] Fork and clone the repository.
-- [ ] Implement your project in a `firstname-lastname` branch.
-- [ ] Create a pull request of `firstname-lastname` against your `main` branch.
-- [ ] Open the assignment in Canvas and submit your pull request.
+- [x] Fork and clone the repository.
+- [x] Implement your project in a `firstname-lastname` branch.
+- [x] Create a pull request of `firstname-lastname` against your `main` branch.
+- [x] Open the assignment in Canvas and submit your pull request.
 
 ### Task 2: Minimum Viable Product
 
@@ -46,7 +46,7 @@ There are two possible ways to submit your project. Your instructor should have 
 - `validateUser()`
 
   - `validateUser` validates the `body` on a request to create or update a user
-  - if the request `body` lacks the required `name` field, respond with status `400` and `{ message: "missing required name field" }`
+  - if the request `body` lacks the required `name` field, respond with status `400` and `{ message: "missing required name field" }`"
 
 - `validatePost()`
 
